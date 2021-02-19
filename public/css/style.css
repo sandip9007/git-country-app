@@ -1,0 +1,44 @@
+body {
+    background: #1a1a1a;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+#searchCountry{
+    width: 350px;
+    height: 35px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#search_btn{
+    width: 150px;
+    height: 35px;
+}
+
+#showdata{
+    width: 500px;
+    height: 300px;
+    box-shadow: -1px -3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -3px 5px 0px rgba(0,0,0,0.75);
+    margin: auto;
+    margin-top: 10px;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+#showdata p {
+    color: white;
+}
