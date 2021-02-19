@@ -1,6 +1,6 @@
 
 const getCountry = (contryCode, callback)=>{
-   fetch('http://restcountries.eu/rest/v2/all').then((response)=>{
+   fetch('https://restcountries.eu/rest/v2/all').then((response)=>{
        const data = response.json()
        return data
    }).then((data)=>{
