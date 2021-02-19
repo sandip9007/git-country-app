@@ -25,7 +25,6 @@ document.querySelector('#search_btn').addEventListener('click', (e)=>{
            console.log(data)
         document.querySelector('#showdata').innerHTML = 
         `
-        <img src='${data.flag}'>
         <p>Country :  ${data.name}</p>
         <p>Capital :  ${data.capital}</p>
         <p>Region :  ${data.region}</p>
