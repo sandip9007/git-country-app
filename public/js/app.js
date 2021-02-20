@@ -17,7 +17,7 @@ const showData = document.querySelector('#searchCountry');
 
 document.querySelector('#search_btn').addEventListener('click', (e)=>{
     e.preventDefault();
-    getCountry(showData.value, (error, data)=>{
+    getCountry(showData.value.toUpperCase(), (error, data)=>{
        if(error){
            alert('Invalid search, please search by country code')
        }
